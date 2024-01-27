@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/tasbih1"
+    android:gravity="center"
+
+    >
+
+
+    <TextView
+        android:id="@+id/subhanallah_history_Id"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="10dp"
+        android:text="Subhanallah"
+        android:textColor="@color/white"
+        android:paddingLeft="60dp"
+        android:textSize="20dp" />
+
+    <TextView
+        android:id="@+id/alhamdulillah_history_Id"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="10dp"
+        android:text="Subhanallah"
+        android:textColor="@color/white"
+        android:paddingLeft="60dp"
+        android:textSize="20dp" />
+
+    <TextView
+        android:id="@+id/lailaha_history_Id"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="10dp"
+        android:text="Subhanallah"
+        android:textColor="@color/white"
+        android:paddingLeft="60dp"
+        android:textSize="20dp" />
+
+    <TextView
+        android:id="@+id/allahuakbar_history_Id"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="10dp"
+        android:text="Subhanallah"
+        android:textColor="@color/white"
+        android:paddingLeft="60dp"
+        android:textSize="20dp" />
+
+    <TextView
+        android:id="@+id/allah_history_Id"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="10dp"
+        android:text="Subhanallah"
+        android:textColor="@color/white"
+        android:paddingLeft="60dp"
+        android:textSize="20dp" />
+
+</LinearLayout>

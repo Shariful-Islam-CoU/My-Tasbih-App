@@ -1,0 +1,41 @@
+<resources>
+    <string name="app_name">আমার তাসবীহ</string>
+    <string name="bismillah">বিসমিল্লাহির রাহমানির রাহীম</string>
+    <string name="alert">নিচের যেকোনো একটি তাসবিহ নির্ধারণ করুণ</string>
+    <string name="alert4">সেভ করার আগে যেকোনো একটি তাসবিহ নির্ধারণ করুণ</string>
+    <string name="alert2">এটা নির্ধারিত নয়। আগে তাসবিহ নির্ধারণ করুণ</string>
+    <string name="alert3">তাসবীহ নির্ধারণ করে নিন</string>
+    <string name="save">সেভ করুণ</string>
+    <string name="target">লক্ষ্য নির্ধারণ করুণ</string>
+    <string name="target_text">লক্ষ্য পূরণে আর বাকি </string>
+    <string name="la_ilaha">লা ইলাহা ইল্লাল্লাহ</string>
+    <string name="reset_text">পুনরায় শুরু করুণ</string>
+    <string name="allah">ٱللَّٰه\nআল্লাহ</string>
+
+    <string-array name="buttons">
+
+
+        <item>তাসবীহ নির্ধারণ করুণ</item>
+        <item>সুবহানাল্লাহ</item>
+        <item>আলহামদুলিল্লাহ</item>
+        <item>লা ইলাহা ইল্লাল্লাহ</item>
+        <item>আল্লাহু আকবার</item>
+        <item>আল্লাহ</item>
+
+
+    </string-array>
+
+    <string-array name="buttons_meanings">
+
+
+        <item>তাসবীহ নির্ধারণ করুণ</item>
+        <item>سُبْحَانَ ٱللَّٰهِ\nসুবহানাল্লাহ\nঅর্থঃ সকল পবিত্রতা আল্লাহর\</item>
+        <item>ٱلْحَمْدُ لِلَّٰهِ\nআলহামদুলিল্লাহ\nঅর্থঃ সব প্রশংসা মহান আল্লাহর</item>
+        <item>لَا إِلَٰهَ إِلَّا ٱللَّٰهُ\nলা ইলাহা ইল্লাল্লাহ\nঅর্থঃ আল্লাহ ব্যতীত কোন উপাস্য নেই</item>
+        <item>ٱللَّٰهُ أَكْبَرُ\nআল্লাহু আকবার\nঅর্থঃ আল্লাহ সর্বশ্রেষ্ঠ</item>
+        <item>ٱللَّٰه\nআল্লাহ</item>
+
+
+    </string-array>
+
+</resources>

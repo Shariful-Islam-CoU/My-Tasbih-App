@@ -1,0 +1,203 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:orientation="vertical"
+    android:gravity="center_horizontal"
+    android:layout_height="match_parent"
+    android:background="@drawable/tasbih1"
+    android:weightSum="20"
+    tools:context=".MainActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="2"
+
+        >
+        <!--<TextView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+
+            android:text="@string/bismillah"
+            android:layout_marginTop="20dp"
+            android:textSize="25dp"
+            android:textAlignment="center"
+            android:textStyle="bold"
+            android:textColor="#20B173"
+            />-->
+
+    </LinearLayout>
+
+
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="3"
+        android:gravity="center|right"
+        android:layout_margin="20dp"
+        android:orientation="horizontal">
+
+
+        <Spinner
+            android:id="@+id/spinnerId"
+            style="@android:style/Widget.DeviceDefault.Light.Spinner"
+
+            android:layout_width="148dp"
+            android:layout_height="match_parent"
+            android:background="#75009688"
+
+            android:backgroundTint="#85593C7A"
+            android:spinnerMode="dialog"
+            android:textAlignment="center" />
+
+
+        <Button
+            android:id="@+id/pronounciationId"
+            android:layout_width="51dp"
+            android:layout_height="match_parent"
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="10dp"
+            android:backgroundTint="#45D69682"
+            android:drawableLeft="@drawable/sound1"
+            android:text="উচ্চারণ"
+            android:textColor="@color/white"
+            android:textSize="15dp" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="7"
+        android:gravity="center">
+
+        <Button
+            android:id="@+id/button1Id"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginLeft="30dp"
+            android:layout_marginRight="30dp"
+            android:background="@drawable/button_bg"
+            android:gravity="center"
+            android:text="@string/la_ilaha"
+            android:textAlignment="center"
+            android:textColor="#4CF176"
+            android:textSize="30dp" />
+
+    </LinearLayout>
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="3"
+        android:gravity="center">
+
+
+        <TextView
+            android:id="@+id/countId"
+            android:layout_width="131dp"
+            android:layout_height="match_parent"
+            android:layout_margin="10dp"
+            android:background="#B0035910"
+            android:gravity="center"
+            android:text="0"
+            android:textAlignment="center"
+            android:textColor="@color/white"
+            android:textSize="30dp"
+            android:textStyle="bold" />
+
+        <Button
+            android:id="@+id/reset_button1Id"
+            android:layout_width="118dp"
+            android:layout_height="match_parent"
+            android:layout_margin="20dp"
+            android:backgroundTint="#41BD0303"
+            android:text="@string/reset_text"
+            android:textColor="@color/white"
+            android:textSize="15dp"
+
+
+            />
+
+
+    </LinearLayout>
+
+    
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="3"
+        android:gravity="center"
+
+        >
+
+        <EditText
+            android:id="@+id/editTextId"
+            android:layout_width="74dp"
+            android:layout_height="match_parent"
+            android:layout_marginRight="10dp"
+            android:background="@color/white"
+            android:backgroundTint="#63006400"
+            android:cursorVisible="false"
+            android:hint="@string/target"
+            android:inputType="numberDecimal"
+            android:textColor="@color/white"
+            android:textColorHint="@color/white"
+            android:textSize="15dp" />
+
+        <Button
+            android:id="@+id/save_buttonId"
+            android:layout_width="86dp"
+            android:layout_height="match_parent"
+            android:layout_marginLeft="10dp"
+            android:backgroundTint="#56006400"
+            android:text="@string/save"
+            android:textColor="@color/white"
+            android:textSize="15dp" />
+
+
+        <TextView
+            android:id="@+id/saved_target_view_id"
+            android:layout_width="110dp"
+            android:layout_height="match_parent"
+            android:layout_margin="10dp"
+            android:background="#56006400"
+            android:gravity="center"
+            android:text="লক্ষ্যঃ অনির্ধারিত"
+            android:textColor="@color/white"
+            android:textSize="15dp"
+
+            />
+
+
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="3"
+
+        >
+
+        <TextView
+            android:id="@+id/targetTextviewId"
+            android:layout_width="match_parent"
+            android:layout_height="43dp"
+            android:layout_marginTop="20dp"
+            android:textSize="20dp"
+            android:gravity="center"
+            android:textColor="@color/white"
+            />
+    </LinearLayout>
+
+
+
+
+</LinearLayout>
